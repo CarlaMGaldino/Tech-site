@@ -1,0 +1,58 @@
+  .gradient-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+  }
+
+  .text-2xl.font-bold.gradient-text.logo {
+    background: linear-gradient(135deg, rgb(251, 200, 40) 0%, rgb(255, 255, 255) 100%);
+        -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+.navbar-scroll .transition-colors.link {
+    color: #705dbc;
+}
+
+  .floating-animation {
+      animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+
+      0%,
+      100% {
+          transform: translateY(0px);
+      }
+
+      50% {
+          transform: translateY(-20px);
+      }
+  }
+
+  .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+  }
+
+  .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+  }
+
+  .navbar-scroll {
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.95);
+  }
+
+ .img.w-full.h-48.object-cover.image-site {
+    height: 410px !important;
+}
